@@ -1,0 +1,36 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitHubOrganization": "shivswami",
+    "baseName": "jhipsterSampleApplication",
+    "packageName": "io.github.jhipster.application",
+    "packageFolder": "io/github/jhipster/application",
+    "serverPort": 8081,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "enableSwaggerCodegen": "true",
+    "messageBroker": "kafka",
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "yarn",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "hi",
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi"
+  }
+}
